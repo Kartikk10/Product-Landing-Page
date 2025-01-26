@@ -1,0 +1,752 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{ 
+    font-family: 'Roboto', sans-serif; 
+    color: #333; 
+    line-height: 1.6;
+}
+
+#header{
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: lightgray;
+    z-index: 10;
+}
+
+.logo{
+    width: 60%;
+}
+
+#header-img{
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    padding-top: 5px;
+}
+
+.flex{
+    display: flex;
+}
+
+.logo #product-name{
+    font-size: 3.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 25px;
+}
+
+#nav-bar{
+    width: 40%;
+}
+
+#nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-right: 30px;
+}
+
+li a{
+    font-size: 2.4rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover{
+    color: black;
+}
+
+main{
+    padding-top: 90px;
+    z-index: 1;
+}
+
+#home{
+    height: 85vh;
+    background-image: url(bg-img1.jpg);
+    background-size: 100% 85vh;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.home-wrapper{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    text-align: center;
+    gap: 20px;
+}
+
+.tagline{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+
+.sub-heading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    color: yellow;
+}
+
+.signup-login{
+    font-size: 2.4rem;
+    color: white;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#email{
+    width: 200%;
+    padding: 10px;
+    font-size: 1.6rem;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+#submit{
+    background-color: orange;
+    padding: 10px;
+    width: 100%;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+#submit:hover{
+    border: 2px solid black;
+    color: purple;
+}
+
+#menu{
+    padding-top: 90px;
+}
+
+.menu-wrapper .heading{
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.food{
+    width: 60vw;
+    margin: 40px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
+    gap: 2.4rem;
+}
+
+.food img{
+    width: 18.75vw;
+    height: 31.25vh;
+    object-fit: cover;
+    border-radius: 60px;
+    margin-bottom: 1.6rem;
+}
+
+.food .food-name{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.food .food-options{
+    font-size: 1.2rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#pricing{
+    padding-top: 90px;
+}
+
+.pricing-wrapper{
+    width: 80vw;
+    margin: 10px auto 0; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10rem;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.pricing-wrapper .heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    font-weight: bolder;
+}
+
+.pricing-wrapper hr{
+    margin: 1rem 0;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.pricing-wrapper p{
+    font-size: 1.6rem;
+}
+
+.pricing-wrapper img{
+    width: 80%;
+    height: 100%;
+    justify-self: center;
+    align-self: start;
+}
+
+.pricing-list li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.pricing-list li img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 30px;
+    margin-right: 2rem;
+}
+
+.pricing-list li .name-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.burger-pricing, .pizza-pricing, .pasta-pricing, .fries-pricing, .icecream-pricing, .beverages-pricing{
+    width: 80%;
+}
+
+.burger-pricing{
+    justify-self: center;
+}
+.pizza-pricing{
+    justify-self: center;
+}
+
+.pricing-wrapper [alt=pizza]{
+    justify-self: center;
+}
+
+.pasta-pricing{
+    justify-self: center;
+}
+
+.fries-pricing{
+    justify-self: center;
+}
+
+.pricing-wrapper [alt=fries]{
+    justify-self: center;
+}
+
+.icecream-pricing{
+    justify-self: center;
+}
+
+.beverages-pricing{
+    justify-self: center;
+}
+
+.pricing-wrapper [alt=beverages]{
+    justify-self: center;
+}
+
+.pasta-pricing li{
+    margin: 1rem 0;
+}
+
+.pizza-pricing li{
+    margin: 1rem 0;
+}
+
+.fries-pricing li{
+    margin: 1rem 0;
+}
+
+.icecream-pricing li{
+    margin: 1rem 0;
+}
+
+.beverages-pricing li{
+    margin: 1rem 0;
+}
+
+#video{
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+#video video{
+    margin-top: 10px;
+    width: 50vw;
+}
+
+#footer{
+    margin-top: 90px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem;
+}
+
+#footer ul{
+    list-style: none;
+    display: flex;
+}
+
+#footer ul li{
+    padding: 0 0.5rem;
+}
+
+#footer li a{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width:768px){
+    .logo #product-name{
+        font-size: 2.4rem; 
+    } 
+    
+    #nav-bar ul li a{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .logo #product-name{
+        font-size: 2rem; 
+    } 
+
+    #nav-bar ul li a{
+        font-size: 1.6rem;
+    }
+} 
+
+@media only screen and (max-width:500px){
+    .logo #product-name{
+        font-size: 1.6rem; 
+    } 
+
+    #nav-bar ul li a{
+        font-size: 1.6rem;
+    }
+} 
+
+@media only screen and (max-width: 480px){
+    .logo{
+        width: 50%;
+    }
+    
+    #header{
+        height: 60px;
+    }
+
+    #header-img{
+        max-width: 80px;
+    }
+    
+    #nav-bar{
+        width: 50%;
+    }
+
+    .logo #product-name{
+        right: 10px;
+    }
+
+    main{
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .logo #product-name{
+        font-size: 1.4rem; 
+    } 
+
+    #nav-bar ul li a{
+        font-size: 1.4rem;
+    }
+} 
+
+@media only screen and (max-width:325px){
+    .logo #product-name{
+        font-size: 1.2rem; 
+    } 
+
+    #nav-bar ul li a{
+        font-size: 1.2rem;
+    }
+} 
+
+@media only screen and (max-width:1275px){
+    .tagline{
+        font-size: 2.4rem;
+    }
+
+    .signup-login{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:1165px){
+    .tagline{
+        font-size: 2rem;
+    }
+
+    .signup-login{
+        font-size: 1.6rem;
+    }
+
+    form{
+        flex-direction: column;
+    }
+
+    #email{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    #submit{
+        width: 60%;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:960px){
+    .tagline{
+        font-size: 1.6rem;
+    }
+    
+    .sub-heading{
+        font-size: 1.2rem;
+    }
+
+    .signup-login{
+        font-size: 1.2rem;
+    }
+
+    #email{
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    #submit{
+        font-size: 1rem;
+        padding: 5px;   
+    }
+}
+
+@media only screen and (max-width:780px){
+    .tagline{
+        font-size: 1.4rem;
+    }
+    
+    .sub-heading{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .home-wrapper{
+        margin-left: 50px;
+    }
+
+    .tagline{
+        font-size: 1.2rem;
+    }
+
+    .sub-heading{
+        font-size: 1rem;
+    }
+
+    .signup-login{
+        font-size: 1rem;
+    }
+
+    #email{
+        font-size: 0.8rem;
+    }
+
+    #submit{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .home-wrapper{
+        margin-left: 50px;
+    }
+
+    .tagline{
+        font-size: 1.2rem;
+    }
+
+    .sub-heading{
+        font-size: 1rem;
+    }
+
+    .signup-login{
+        font-size: 1rem;
+    }
+
+    #email{
+        font-size: 0.8rem;
+    }
+
+    #submit{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    #email{
+        width: 110%;
+    }
+
+    #submit{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:1278px){
+    .food{
+        grid-template-columns: 240px 240px;
+    }
+
+    .food img{
+        width: 240px;
+        height: 225px;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .menu-wrapper{
+        margin-left: 45px;
+    }
+    .menu-wrapper .heading{
+        text-align: start;
+        font-size: 2.4rem;
+    }
+
+    .food{
+        grid-template-columns: 240px;
+        margin: 40px 0 0;
+        justify-content: start;
+    }
+
+    .food img{
+        width: 240px;
+        height: 225px;
+    }
+
+    .food .food-name{
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .pricing-wrapper{
+        grid-template-columns: 1fr;
+        grid-template-rows:  200px 1fr 200px 1fr 200px 1fr 200px 1fr 200px 1fr 200px 1fr;
+        grid-template-areas: "burger-img"
+                             "burger-pricing"
+                             "pizza-img"
+                             "pizza-pricing"
+                             "pasta-img"
+                             "pasta-pricing"
+                             "fries-img"
+                             "fries-pricing"
+                             "icecream-img"
+                             "icecream-pricing"
+                             "beverages-img"
+                             "beverages-pricing"
+        ;
+        row-gap: 4rem;
+        margin-left: 45px;
+    }
+    
+    .pricing-wrapper [alt=burger]{
+        grid-area: burger-img;
+        width: 280px;
+        height: 200px;
+        justify-self: start;
+    }
+
+    .burger-pricing{
+        grid-area: burger-pricing;
+        justify-self: start;
+    }
+
+    .pricing-wrapper [alt=pizza]{
+        grid-area: pizza-img;
+        width: 280px;
+        height: 200px;
+        justify-self: start;
+    }
+
+    .pizza-pricing{
+        grid-area: pizza-pricing;
+        justify-self: start;
+    }
+
+    .pricing-wrapper [alt=pasta]{
+        grid-area: pasta-img;
+        width: 280px;
+        height: 200px;
+        justify-self: start;
+    }
+
+    .pasta-pricing{
+        grid-area: pasta-pricing;
+        justify-self: start;
+    }
+
+    .pricing-wrapper [alt=fries]{
+        grid-area: fries-img;
+        width: 280px;
+        height: 200px;
+        justify-self: start;
+    }
+
+    .fries-pricing{
+        grid-area: fries-pricing;
+        justify-self: start;
+    }
+
+    .pricing-wrapper [alt=icecream]{
+        grid-area: icecream-img;
+        width: 280px;
+        height: 200px;
+        margin-top: -60px;
+        justify-self: start;
+    }
+
+    .icecream-pricing{
+        grid-area: icecream-pricing;
+        margin-top: -60px;
+        justify-self: start;
+    }
+
+    .pricing-wrapper [alt=beverages]{
+        grid-area: beverages-img;
+        width: 280px;
+        height: 200px;
+        margin-top: -60px;
+        justify-self: start;
+    }
+
+    .beverages-pricing{
+        grid-area: beverages-pricing;
+        margin-top: -60px;
+        justify-self: start;
+    }
+
+    .pricing-wrapper .heading{
+        font-size: 1.8rem;
+    }
+
+    .pricing-wrapper p{
+        font-size: 1.2rem;
+    }
+
+    #video video{
+        margin-top: -60px;
+    }
+}
+
+@media only screen and (max-width:370px){
+    .pricing-wrapper [alt=burger]{
+        width: 240px;
+    }
+
+    .pricing-wrapper [alt=pizza]{
+        width: 240px;
+    }
+
+    .pricing-wrapper [alt=pasta]{
+        width: 240px;
+    }
+
+    .pricing-wrapper [alt=fries]{
+        width: 240px;
+    }
+
+    .pricing-wrapper [alt=icecream]{
+        width: 240px;
+    }
+
+    .pricing-wrapper [alt=beverages]{
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    #video video{
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    #footer{
+        font-size: 1.4rem;
+    }
+
+    #footer li a{
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 325px){
+    #footer{
+        font-size: 1.2rem;
+    }
+
+    #footer li a{
+        font-size: 1.2rem;
+    }
+}

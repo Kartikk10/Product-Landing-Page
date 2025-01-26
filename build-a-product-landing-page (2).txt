@@ -1,0 +1,1119 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Bite - Get your favorite meals delivered</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Open+Sans:wght@600&family=Roboto:wght@400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo flex">
+            <img id="header-img" src="https://i.imgur.com/jFuSK8O.png" alt="Quick Bite logo">
+            <div id="product-name">Quick Bite</div>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="home-wrapper">
+                <div class="tagline">Delicious Meals Delivered to Your Doorstep in Minutes!</div>
+                <div class="sub-heading">Be the fastest in delivering your healthy food and with us order your best food
+                    anytime and anywhere.</div>
+                <div class="signup-login">Hungry? Sign up or log in to Quick Bite! Enter your email to get started.
+                </div>
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                    <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+                    <input type="submit" id="submit" value="GET STARTED">
+                </form>
+            </div>
+        </section>
+        <section id="menu">
+            <div class="menu-wrapper">
+                <p class="heading">Our Featured Food</p>
+                <div class="food">
+                    <div id="burger">
+                        <img src="https://i.imgur.com/EQ8OntT.jpeg" alt="burger">
+                        <p class="food-name">Burger</p>
+                        <p class="food-options">Crispy Veg, Crispy Veg with Double Patty, Crispy Veg with Cheese, Crispy
+                            Chicken, Crispy Chicken with Double Patty, Crispy Chicken with Cheese</p>
+                    </div>
+                    <div id="pizza">
+                        <img src="https://i.imgur.com/qTnUAHi.jpg" alt="pizza">
+                        <p class="food-name">Pizza</p>
+                        <p class="food-options">Margherita, Farmhouse, Peppy Paneer, Pepper Barbecue Chicken, Indi Chicken Tikka</p>
+                    </div>
+                    <div id="pasta">
+                        <img src="https://i.imgur.com/bp6krpt.jpeg" alt="pasta">
+                        <p class="food-name">Pasta</p>
+                        <p class="food-options">Americano White Sauce Pasta Veg, Mexicana Red Sauce Pasta Veg, Indiana
+                            Pasta Veg, Americano White Sauce Pasta Non-Veg, Indiana Pasta Non-Veg</p>
+                    </div>
+                    <div id="fries">
+                        <img src="https://i.imgur.com/xmnZxeh.jpg" alt="fries">
+                        <p class="food-name">Fries</p>
+                        <p class="food-options">Classic French Fries, Peri-Peri Fries, Cheese Fries, Garlic Butter Fries
+                        </p>
+                    </div>
+                    <div id="icecream">
+                        <img src="https://i.imgur.com/EWiUdh5.jpg" alt="icecream">
+                        <p class="food-name">Ice Cream</p>
+                        <p class="food-options">Vanilla, Chocolate, Strawberry, Mango, Butterscotch</p>
+                    </div>
+                    <div id="beverages">
+                        <img src="https://i.imgur.com/5kCYUDU.jpg" alt="beverages">
+                        <p class="food-name">Beverages</p>
+                        <p class="food-options">Cold Coffee, Chocolate Milkshake,
+                            Butterscotch Milkshake, Oreo Milkshake, Strawberry Milkshake</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="pricing">
+            <div class="pricing-wrapper">
+                <img src="https://i.imgur.com/EQ8OntT.jpg" alt="burger">
+                <div class="burger-pricing">
+                    <p class="heading">Burger</p>
+                    <hr>
+                    <ul class="pricing-list">
+                        <li>
+                            <img src="https://i.imgur.com/24pC8Za.jpg" alt="Crispy Veg Burger">
+                            <div class="name-price">
+                                <p>Crispy Veg Burger</p>
+                                <p>₹55</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/jADUvAD.jpg" alt="Crispy Veg Burger with Double Patty">
+                            <div class="name-price">
+                                <p>Crispy Veg Burger with Double Patty</p>
+                                <p>₹85</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/PICvL3X.jpg" alt="Crispy Veg Burger with Cheese">
+                            <div class="name-price">
+                                <p>Crispy Veg Burger with Cheese</p>
+                                <p>₹95</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/OeDCmKF.jpg" alt="Crispy Chicken Burger">
+                            <div class="name-price">
+                                <p>Crispy Chicken Burger</p>
+                                <p>₹75</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/ZwLC2ZN.jpg" alt="Crispy Chicken Burger with Double Patty">
+                            <div class="name-price">
+                                <p>Crispy Chicken Burger with Double Patty</p>
+                                <p>₹115</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/pz8eiQb.jpg" alt="Crispy Chicken Burger with Cheese">
+                            <div class="name-price">
+                                <p>Crispy Chicken Burger with Cheese</p>
+                                <p>₹135</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pizza-pricing">
+                    <p class="heading">Pizza</p>
+                    <hr>
+                    <ul class="pricing-list">
+                        <li>
+                            <img src="https://i.imgur.com/QuuFNE1.jpg" alt="Margherita">
+                            <div class="name-price">
+                                <p>Margherita</p>
+                                <p>₹109</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/6jL8bq3.jpg" alt="Farmhouse">
+                            <div class="name-price">
+                                <p>Farmhouse</p>
+                                <p>₹259</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/jktEBbl.jpg" alt="Peppy Paneer">
+                            <div class="name-price">
+                                <p>Peppy Paneer</p>
+                                <p>₹269</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/yEFLvy7.jpg" alt="Pepper Barbecue Chicken">
+                            <div class="name-price">
+                                <p>Pepper Barbecue Chicken</p>
+                                <p>₹249</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/jMZCNw1.jpg" alt="Indi Chicken Tikka">
+                            <div class="name-price">
+                                <p>Indi Chicken Tikka</p>
+                                <p>₹389</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <img src="https://i.imgur.com/qTnUAHi.jpg" alt="pizza">
+                <img src="https://i.imgur.com/bp6krpt.jpeg" alt="pasta">
+                <div class="pasta-pricing">
+                    <p class="heading">Pasta</p>
+                    <hr>
+                    <ul class="pricing-list">
+                        <li>
+                            <img src="https://i.imgur.com/yx66wja.jpg" alt="Americano White Sauce Pasta Veg">
+                            <div class="name-price">
+                                <p>Americano White Sauce Pasta Veg</p>
+                                <p>₹189</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/Gj8ciRl.jpg" alt="Mexicana Red Sauce Pasta Veg">
+                            <div class="name-price">
+                                <p>Mexicana Red Sauce Pasta Veg</p>
+                                <p>₹189</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/0JOPRkw.jpg" alt="Indiana Pasta Veg">
+                            <div class="name-price">
+                                <p>Indiana Pasta Veg</p>
+                                <p>₹189</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/m9RxcsW.jpg" alt="Americano White Sauce Pasta Non-Veg">
+                            <div class="name-price">
+                                <p>Americano White Sauce Pasta Non-Veg</p>
+                                <p>₹212</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/VEw3ljn.jpg" alt="Indiana Pasta Non-Veg">
+                            <div class="name-price">
+                                <p>Indiana Pasta Non-Veg</p>
+                                <p>₹212</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fries-pricing">
+                    <p class="heading">Fries</p>
+                    <hr>
+                    <ul class="pricing-list">
+                        <li>
+                            <img src="https://i.imgur.com/bodAB0Q.jpg" alt="Classic French Fries">
+                            <div class="name-price">
+                                <p>Classic French Fries</p>
+                                <p>₹99</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/YhIlCFr.jpg" alt="Peri-Peri Fries">
+                            <div class="name-price">
+                                <p>Peri-Peri Fries</p>
+                                <p>₹129</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/A7rg3kD.jpg" alt="Cheese Fries">
+                            <div class="name-price">
+                                <p>Cheese Fries</p>
+                                <p>₹149</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/o9STxWr.jpg" alt="Garlic Butter Fries">
+                            <div class="name-price">
+                                <p>Garlic Butter Fries</p>
+                                <p>₹169</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <img src="https://i.imgur.com/xmnZxeh.jpg" alt="fries">
+                <img src="https://i.imgur.com/EWiUdh5.jpg" alt="icecream">
+                <div class="icecream-pricing">
+                    <p class="heading">Ice Cream</p>
+                    <hr>
+                    <ul class="pricing-list">
+                        <li>
+                            <img src="https://i.imgur.com/T6USyQ1.jpg" alt="Vanilla">
+                            <div class="name-price">
+                                <p>Vanilla</p>
+                                <p>₹79</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/QS2LlmW.jpg" alt="Chocolate">
+                            <div class="name-price">
+                                <p>Chocolate</p>
+                                <p>₹89</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/WbrF9Sg.jpg" alt="Strawberry">
+                            <div class="name-price">
+                                <p>Strawberry</p>
+                                <p>₹89</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/qa60a3i.jpg" alt="Mango">
+                            <div class="name-price">
+                                <p>Mango</p>
+                                <p>₹99</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/WYuiowh.jpg" alt="Butterscotch">
+                            <div class="name-price">
+                                <p>Butterscotch</p>
+                                <p>₹99</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="beverages-pricing">
+                    <p class="heading">Beverages</p>
+                    <hr>
+                    <ul class="pricing-list">
+                        <li>
+                            <img src="https://i.imgur.com/VzRmx9H.jpg" alt="Cold Coffee">
+                            <div class="name-price">
+                                <p>Cold Coffee</p>
+                                <p>₹99</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/4SjBPQp.jpg" alt="Chocolate Milkshake">
+                            <div class="name-price">
+                                <p>Chocolate Milkshake</p>
+                                <p>₹129</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/CMr4Sxf.jpg" alt="Butterscotch Milkshake">
+                            <div class="name-price">
+                                <p>Butterscotch Milkshake</p>
+                                <p>₹139</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/D4wVlJp.jpg" alt="Oreo Milkshake">
+                            <div class="name-price">
+                                <p>Oreo Milkshake</p>
+                                <p>₹149</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/CGqQDo9.jpg" alt="Strawberry Milkshake">
+                            <div class="name-price">
+                                <p>Strawberry Milkshake</p>
+                                <p>₹129</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <img src="https://i.imgur.com/5kCYUDU.jpg" alt="beverages">
+            </div>
+        </section>
+        <section id="video-quick-bite">
+            <video id="video" src="https://i.imgur.com/jK2G4SP.mp4" controls width="40%" height="auto"></video>
+        </section>
+    </main>
+    <footer id="footer">
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p>Copyright 2025, Quick Bite</p>
+    </footer>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{ 
+    font-family: 'Roboto', sans-serif; 
+    color: #333; 
+    line-height: 1.6;
+}
+
+#header{
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: lightgray;
+    z-index: 10;
+}
+
+.logo{
+    width: 60%;
+}
+
+#header-img{
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    padding-top: 5px;
+}
+
+.flex{
+    display: flex;
+}
+
+.logo #product-name{
+    font-size: 3.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 25px;
+}
+
+#nav-bar{
+    width: 40%;
+}
+
+#nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-right: 30px;
+}
+
+li a{
+    font-size: 2.4rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover{
+    color: black;
+}
+
+main{
+    padding-top: 90px;
+    z-index: 1;
+}
+
+#home{
+    height: 85vh;
+    background-image: url(https://i.imgur.com/aW9JtnC.jpg);
+    background-size: 100% 85vh;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.home-wrapper{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    text-align: center;
+    gap: 20px;
+}
+
+.tagline{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+
+.sub-heading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    color: yellow;
+}
+
+.signup-login{
+    font-size: 2.4rem;
+    color: white;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#email{
+    width: 200%;
+    padding: 10px;
+    font-size: 1.6rem;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+#submit{
+    background-color: orange;
+    padding: 10px;
+    width: 100%;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+#submit:hover{
+    border: 2px solid black;
+    color: purple;
+}
+
+#menu{
+    padding-top: 90px;
+}
+
+.menu-wrapper .heading{
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.food{
+    width: 60vw;
+    margin: 40px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
+    gap: 2.4rem;
+}
+
+.food img{
+    width: 18.75vw;
+    height: 31.25vh;
+    object-fit: cover;
+    border-radius: 60px;
+    margin-bottom: 1.6rem;
+}
+
+.food .food-name{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.food .food-options{
+    font-size: 1.2rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#pricing{
+    padding-top: 90px;
+}
+
+.pricing-wrapper{
+    width: 80vw;
+    margin: 10px auto 0; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10rem;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.pricing-wrapper .heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    font-weight: bolder;
+}
+
+.pricing-wrapper hr{
+    margin: 1rem 0;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.pricing-wrapper p{
+    font-size: 1.6rem;
+}
+
+.pricing-wrapper img{
+    width: 80%;
+    height: 100%;
+    justify-self: center;
+    align-self: start;
+}
+
+.pricing-list li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.pricing-list li img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 30px;
+    margin-right: 2rem;
+}
+
+.pricing-list li .name-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.burger-pricing, .pizza-pricing, .pasta-pricing, .fries-pricing, .icecream-pricing, .beverages-pricing{
+    width: 80%;
+}
+
+.burger-pricing{
+    justify-self: center;
+}
+.pizza-pricing{
+    justify-self: center;
+}
+
+.pricing-wrapper [alt=pizza]{
+    justify-self: center;
+}
+
+.pasta-pricing{
+    justify-self: center;
+}
+
+.fries-pricing{
+    justify-self: center;
+}
+
+.pricing-wrapper [alt=fries]{
+    justify-self: center;
+}
+
+.icecream-pricing{
+    justify-self: center;
+}
+
+.beverages-pricing{
+    justify-self: center;
+}
+
+.pricing-wrapper [alt=beverages]{
+    justify-self: center;
+}
+
+.pasta-pricing li{
+    margin: 1rem 0;
+}
+
+.pizza-pricing li{
+    margin: 1rem 0;
+}
+
+.fries-pricing li{
+    margin: 1rem 0;
+}
+
+.icecream-pricing li{
+    margin: 1rem 0;
+}
+
+.beverages-pricing li{
+    margin: 1rem 0;
+}
+
+#video-quick-bite{
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+#video-quick-bite video{
+    margin-top: 10px;
+    width: 50vw;
+}
+
+#footer{
+    margin-top: 90px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem;
+}
+
+#footer ul{
+    list-style: none;
+    display: flex;
+}
+
+#footer ul li{
+    padding: 0 0.5rem;
+}
+
+#footer li a{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width:768px){
+    .logo #product-name{
+        font-size: 2.4rem; 
+    } 
+    
+    #nav-bar ul li a{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .logo #product-name{
+        font-size: 2rem; 
+    } 
+
+    #nav-bar ul li a{
+        font-size: 1.6rem;
+    }
+} 
+
+@media only screen and (max-width:500px){
+    .logo #product-name{
+        font-size: 1.6rem; 
+    } 
+
+    #nav-bar ul li a{
+        font-size: 1.6rem;
+    }
+} 
+
+@media only screen and (max-width: 480px){
+    .logo{
+        width: 50%;
+    }
+    
+    #header{
+        height: 60px;
+    }
+
+    #header-img{
+        max-width: 80px;
+    }
+    
+    #nav-bar{
+        width: 50%;
+    }
+
+    .logo #product-name{
+        right: 10px;
+    }
+
+    main{
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .logo #product-name{
+        font-size: 1.4rem; 
+    } 
+
+    #nav-bar ul li a{
+        font-size: 1.4rem;
+    }
+} 
+
+@media only screen and (max-width:325px){
+    .logo #product-name{
+        font-size: 1.2rem; 
+    } 
+
+    #nav-bar ul li a{
+        font-size: 1.2rem;
+    }
+} 
+
+@media only screen and (max-width:1275px){
+    .tagline{
+        font-size: 2.4rem;
+    }
+
+    .signup-login{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:1165px){
+    .tagline{
+        font-size: 2rem;
+    }
+
+    .signup-login{
+        font-size: 1.6rem;
+    }
+
+    form{
+        flex-direction: column;
+    }
+
+    #email{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    #submit{
+        width: 60%;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:960px){
+    .tagline{
+        font-size: 1.6rem;
+    }
+     
+    .sub-heading{
+        font-size: 1.2rem;
+    }
+
+    .signup-login{
+        font-size: 1.2rem;
+    }
+
+    #email{
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    #submit{
+        font-size: 1rem;
+        padding: 5px;   
+    }
+}
+
+@media only screen and (max-width:780px){
+    .home-wrapper{
+        margin-left: 50px;
+    }
+    
+    .tagline{
+        font-size: 1.2rem;
+    }
+    
+    .sub-heading{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .home-wrapper{
+        margin-left: 50px;
+    }
+
+    .tagline{
+        font-size: 1.2rem;
+    }
+
+    .sub-heading{
+        font-size: 1rem;
+    }
+
+    .signup-login{
+        font-size: 1rem;
+    }
+
+    #email{
+        font-size: 0.8rem;
+    }
+
+    #submit{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .home-wrapper{
+        margin-left: 50px;
+    }
+
+    .tagline{
+        font-size: 1.2rem;
+    }
+
+    .sub-heading{
+        font-size: 1rem;
+    }
+
+    .signup-login{
+        font-size: 1rem;
+    }
+
+    #email{
+        font-size: 0.8rem;
+    }
+
+    #submit{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    #email{
+        width: 110%;
+    }
+
+    #submit{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:1278px){
+    .food{
+        grid-template-columns: 240px 240px;
+    }
+
+    .food img{
+        width: 240px;
+        height: 225px;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .menu-wrapper{
+        margin-left: 45px;
+    }
+    .menu-wrapper .heading{
+        text-align: start;
+        font-size: 2.4rem;
+    }
+
+    .food{
+        grid-template-columns: 240px;
+        margin: 40px 0 0;
+        justify-content: start;
+    }
+
+    .food img{
+        width: 240px;
+        height: 225px;
+    }
+
+    .food .food-name{
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .pricing-wrapper{
+        grid-template-columns: 1fr;
+        grid-template-rows:  200px 1fr 200px 1fr 200px 1fr 200px 1fr 200px 1fr 200px 1fr;
+        grid-template-areas: "burger-img"
+                             "burger-pricing"
+                             "pizza-img"
+                             "pizza-pricing"
+                             "pasta-img"
+                             "pasta-pricing"
+                             "fries-img"
+                             "fries-pricing"
+                             "icecream-img"
+                             "icecream-pricing"
+                             "beverages-img"
+                             "beverages-pricing"
+        ;
+        row-gap: 4rem;
+        margin-left: 45px;
+    }
+    
+    .pricing-wrapper [alt=burger]{
+        grid-area: burger-img;
+        width: 280px;
+        height: 200px;
+        justify-self: start;
+    }
+
+    .burger-pricing{
+        grid-area: burger-pricing;
+        justify-self: start;
+    }
+
+    .pricing-wrapper [alt=pizza]{
+        grid-area: pizza-img;
+        width: 280px;
+        height: 200px;
+        justify-self: start;
+    }
+
+    .pizza-pricing{
+        grid-area: pizza-pricing;
+        justify-self: start;
+    }
+
+    .pricing-wrapper [alt=pasta]{
+        grid-area: pasta-img;
+        width: 280px;
+        height: 200px;
+        justify-self: start;
+    }
+
+    .pasta-pricing{
+        grid-area: pasta-pricing;
+        justify-self: start;
+    }
+
+    .pricing-wrapper [alt=fries]{
+        grid-area: fries-img;
+        width: 280px;
+        height: 200px;
+        justify-self: start;
+    }
+
+    .fries-pricing{
+        grid-area: fries-pricing;
+        justify-self: start;
+    }
+
+    .pricing-wrapper [alt=icecream]{
+        grid-area: icecream-img;
+        width: 280px;
+        height: 200px;
+        margin-top: -60px;
+        justify-self: start;
+    }
+
+    .icecream-pricing{
+        grid-area: icecream-pricing;
+        margin-top: -60px;
+        justify-self: start;
+    }
+
+    .pricing-wrapper [alt=beverages]{
+        grid-area: beverages-img;
+        width: 280px;
+        height: 200px;
+        margin-top: -60px;
+        justify-self: start;
+    }
+
+    .beverages-pricing{
+        grid-area: beverages-pricing;
+        margin-top: -60px;
+        justify-self: start;
+    }
+
+    .pricing-wrapper .heading{
+        font-size: 1.8rem;
+    }
+
+    .pricing-wrapper p{
+        font-size: 1.2rem;
+    }
+
+    #video video{
+        margin-top: -60px;
+    }
+}
+
+@media only screen and (max-width:370px){
+    .pricing-wrapper [alt=burger]{
+        width: 240px;
+    }
+
+    .pricing-wrapper [alt=pizza]{
+        width: 240px;
+    }
+
+    .pricing-wrapper [alt=pasta]{
+        width: 240px;
+    }
+
+    .pricing-wrapper [alt=fries]{
+        width: 240px;
+    }
+
+    .pricing-wrapper [alt=icecream]{
+        width: 240px;
+    }
+
+    .pricing-wrapper [alt=beverages]{
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    #video-quick-bite video{
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    #footer{
+        font-size: 1.4rem;
+    }
+
+    #footer li a{
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 325px){
+    #footer{
+        font-size: 1.2rem;
+    }
+
+    #footer li a{
+        font-size: 1.2rem;
+    }
+}
+
+** end of undefined **
+
